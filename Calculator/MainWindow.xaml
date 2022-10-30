@@ -1,0 +1,90 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="351" Width="213" MinWidth="213" MinHeight="351">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Grid.ColumnSpan="100" Grid.RowSpan="100" Content="" FontSize="30" FontFamily="Impact" Foreground="#1f1f1f">
+            <Label.Background>
+                <SolidColorBrush Color="#1f1f1f"></SolidColorBrush>
+            </Label.Background>
+        </Label>
+        <TextBlock Name="txtResult"  
+                   Text="0"  
+                   Foreground="#ffff"
+                   FontSize="40" 
+                   Margin="0,0,4,0"
+                   VerticalAlignment="Bottom"  
+                   HorizontalAlignment="Right"  
+                   Grid.ColumnSpan="4"></TextBlock>
+        <TextBlock Name="Standart"  
+                   Text="Standart" 
+                   
+                   Foreground="#ffff"
+                   FontSize="23" 
+                   Margin="25,10,0,0"
+                   VerticalAlignment="Top"  
+                   HorizontalAlignment="Left"  
+                   Grid.Column="0" Grid.ColumnSpan="3"></TextBlock>
+        <Button Grid.Row="2" Grid.Column="0" Background="#131313" Foreground="white">%</Button>
+        <Button Grid.Row="2" Grid.Column="3" Background="#131313" Foreground="white">1/x</Button>
+        <Button Grid.Row="2" Grid.Column="2" Background="#131313" Foreground="white">x^2</Button>
+        <Button Grid.Row="2" Grid.Column="1" Background="#131313" Foreground="white">sqrt</Button>
+        <Button Grid.Row="3" Grid.Column="0" Background="#131313" Foreground="white">CE</Button>
+        <Button Grid.Row="3" Grid.Column="1" Background="#131313" Foreground="white">C</Button>
+        <Button Grid.Row="7" Grid.Column="0" Background="#131313" Foreground="white">+/-</Button>
+        <Button Grid.Row="3" Grid.Column="2" Background="#131313" Foreground="white">&lt;=</Button>
+        <Button Grid.Row="3" Grid.Column="3" Background="#131313" Foreground="white">/</Button>
+        <Button Grid.Row="4" Grid.Column="0" Foreground="White"    Background="#060606">7</Button>
+        <Button Grid.Row="4" Grid.Column="1" Foreground="White"    Background="#060606">8</Button>
+        <Button Grid.Row="4" Grid.Column="2" Foreground="White"    Background="#060606">9</Button>
+        <Button Grid.Row="4" Grid.Column="3" Background="#131313" Foreground="white">X</Button>
+        <Button Grid.Row="5" Grid.Column="0" Foreground="White"    Background="#060606">4</Button>
+        <Button Grid.Row="5" Grid.Column="1" Foreground="White"    Background="#060606">5</Button>
+        <Button Grid.Row="5" Grid.Column="2" Foreground="White"    Background="#060606">6</Button>
+        <Button Grid.Row="5" Grid.Column="3" Background="#131313" Foreground="white">-</Button>
+        <Button Grid.Row="6" Grid.Column="0" Foreground="White"    Background="#060606">1</Button>
+        <Button Grid.Row="6" Grid.Column="1" Foreground="White"    Background="#060606">2</Button>
+        <Button Grid.Row="6" Grid.Column="2" Foreground="White"    Background="#060606">3</Button>
+        <Button Grid.Row="6" Grid.Column="3" Background="#131313" Foreground="white">+</Button>
+        <Button Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="1" Foreground="White"    Background="#060606">0</Button>
+        <Button Grid.Row="7" Grid.Column="2" Background="#131313" Foreground="white">,</Button>
+        <Button Grid.Row="7" Grid.Column="3" Background="#131313" Foreground="white">=</Button>
+        <Grid Grid.Row="1" Grid.ColumnSpan="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button  Grid.Column="0"  Background="#1f1f1f"   Foreground="white" BorderBrush="#1f1f1f">MC</Button>
+            <Button Grid.Column="1" Background="#1f1f1f"  Foreground="white" BorderBrush="#1f1f1f">MR</Button>
+            <Button Grid.Column="2" Background="#1f1f1f"  Foreground="white" BorderBrush="#1f1f1f">M+</Button>
+            <Button Grid.Column="3" Background="#1f1f1f"  Foreground="white" BorderBrush="#1f1f1f">M-</Button>
+            <Button Grid.Column="4" Background="#1f1f1f"  Foreground="white" BorderBrush="#1f1f1f">M</Button>
+        </Grid>
+    </Grid>
+
+   
+</Window>

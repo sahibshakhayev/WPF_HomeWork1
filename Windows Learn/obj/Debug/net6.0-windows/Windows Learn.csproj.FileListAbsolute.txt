@@ -1,0 +1,21 @@
+D:\Documents\STEP IT\Homework\WPF\HW1\Windows Learn\bin\Debug\net6.0-windows\Windows Learn.exe
+D:\Documents\STEP IT\Homework\WPF\HW1\Windows Learn\bin\Debug\net6.0-windows\Windows Learn.deps.json
+D:\Documents\STEP IT\Homework\WPF\HW1\Windows Learn\bin\Debug\net6.0-windows\Windows Learn.runtimeconfig.json
+D:\Documents\STEP IT\Homework\WPF\HW1\Windows Learn\bin\Debug\net6.0-windows\Windows Learn.dll
+D:\Documents\STEP IT\Homework\WPF\HW1\Windows Learn\bin\Debug\net6.0-windows\Windows Learn.pdb
+D:\Documents\STEP IT\Homework\WPF\HW1\Windows Learn\obj\Debug\net6.0-windows\Windows Learn.csproj.AssemblyReference.cache
+D:\Documents\STEP IT\Homework\WPF\HW1\Windows Learn\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\Documents\STEP IT\Homework\WPF\HW1\Windows Learn\obj\Debug\net6.0-windows\App.g.cs
+D:\Documents\STEP IT\Homework\WPF\HW1\Windows Learn\obj\Debug\net6.0-windows\Windows Learn_MarkupCompile.cache
+D:\Documents\STEP IT\Homework\WPF\HW1\Windows Learn\obj\Debug\net6.0-windows\Windows Learn_MarkupCompile.lref
+D:\Documents\STEP IT\Homework\WPF\HW1\Windows Learn\obj\Debug\net6.0-windows\MainWindow.baml
+D:\Documents\STEP IT\Homework\WPF\HW1\Windows Learn\obj\Debug\net6.0-windows\Windows Learn.g.resources
+D:\Documents\STEP IT\Homework\WPF\HW1\Windows Learn\obj\Debug\net6.0-windows\Windows Learn.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\STEP IT\Homework\WPF\HW1\Windows Learn\obj\Debug\net6.0-windows\Windows Learn.AssemblyInfoInputs.cache
+D:\Documents\STEP IT\Homework\WPF\HW1\Windows Learn\obj\Debug\net6.0-windows\Windows Learn.AssemblyInfo.cs
+D:\Documents\STEP IT\Homework\WPF\HW1\Windows Learn\obj\Debug\net6.0-windows\Windows Learn.csproj.CoreCompileInputs.cache
+D:\Documents\STEP IT\Homework\WPF\HW1\Windows Learn\obj\Debug\net6.0-windows\Windows Learn.dll
+D:\Documents\STEP IT\Homework\WPF\HW1\Windows Learn\obj\Debug\net6.0-windows\refint\Windows Learn.dll
+D:\Documents\STEP IT\Homework\WPF\HW1\Windows Learn\obj\Debug\net6.0-windows\Windows Learn.pdb
+D:\Documents\STEP IT\Homework\WPF\HW1\Windows Learn\obj\Debug\net6.0-windows\Windows Learn.genruntimeconfig.cache
+D:\Documents\STEP IT\Homework\WPF\HW1\Windows Learn\obj\Debug\net6.0-windows\ref\Windows Learn.dll
